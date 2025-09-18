@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    background-color: #ff6b6b;
+    padding:10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight:900;
+    letter-spacing:4px;
+    margin-top: 10px;
+    margin-left:90px;
+}
+nav ul li img{
+    margin-left:30px;
+    width:30px;
+}
+.main h1{
+    font-size:40px;
+    margin-top:60px;
+    margin-left:60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container1{
+    width:700px;
+}
+.main{
+    display: flex;
+    background: linear-gradient(to right,#ffeedd, #ff5e62);
+}
+.img img{
+    width:600px;
+    height:610px;
+}
+.container1 p{
+    margin:60px;
+    height: 30px;
+    line-height:1.6em;
+    font-family: sans-serif;
+}
+.container1 button{
+   margin-top:100px;
+   margin-left:60px;
+   padding-left:80px;
+   padding-right:80px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background: #ff6600;
+   border: #ff5e62;
+   color: white;
+}
+.shape{
+    background-color: black;
+    height:10px;
+}
+.gallery img{
+    height:200px;
+    display: block;
+}
+.container2{
+    display: flex;
+     background: linear-gradient(to right,#ffeedd,#e0a972, #ebabe0);
+     height:800px;
+}
+.gallery img:nth-child(1){
+    height:220px;
+    width:250px;
+    margin-left:80px;
+    margin-top:250px;
+    padding-right:20px;
+    padding-bottom:8px;
+}
+.gallery img:nth-child(2){
+    width:250px;
+    height:220px;
+    margin-left:80px;
+}
+.image img{
+    height:450px;
+    margin-top: 250px;
+}
+.card{
+    width:500px;
+    height:200px;
+    background-color: #e3744c;
+    margin-top:400px;
+    margin-left: 50px;
+}
+.card p{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.card h2{
+    font-family: 'Oswald', sans-serif;
+    font-size:40px;
+    letter-spacing:2px;
+    padding: 10px;
+}
+.click-area {
+  display: flex;
+  align-items: center; 
+  gap: 8px; 
+  margin-left:15px;
+}
+.click-area img {
+  width: 20px; 
+  height: auto;
+}
+
+
+
